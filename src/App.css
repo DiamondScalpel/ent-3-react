@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+/*---------RESET-----------*/
+*,
+*::before
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-family: "Rubik", sans-serif;
+  font-weight: 600 ;
+}
+body {
+  background-color: #05292E;
+  color: white;
+
+}
+img {
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+ul {
+  list-style: none;
+}
+input,
+button {
+  display: inline-block;
+  cursor: pointer;
+  font-family: inherit;
+  text-align: center;
+}
+button {
+  border: none;
+}
+/*---------APP-----------*/
+.app {
+  min-height: 100vh;
+  background-color: #05292E;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  align-items: center;
+}
+.app__title {
+  border: 100px;
+  color: #71A821;
+  -webkit-text-stroke: 3px black;
+  block-size: 220px;
+  text-align: center;
+  padding: 20px;
+  background-image: url("https://timelinecovers.pro/facebook-cover/download/rick-and-morty-uhmm-facebook-cover.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  width: 100%;
+  padding: 0;
+  margin: 0 0 25px 0;
+}
+.app__form {
+  display: flex;
+  justify-content: center;
+}
+.app__form-input {
+  border-radius: 7px 0 0 7px;
+}
+.app__form-button {
+  border-radius: 0 7px 7px 0;
+  padding: 5px 15px;
+  background-color: #71A821;
+  color: inherit;
+}
+.app__container {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+}
